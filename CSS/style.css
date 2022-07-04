@@ -24,7 +24,7 @@ li{
 }
 
 body{
-    font-family: 'PT Serif', serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
@@ -376,7 +376,7 @@ header{
     line-height: 24px;
     font-weight: 500;
     padding: 24px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif;
 }
 .service__item-text{
     letter-spacing: 0.1px;
@@ -410,8 +410,21 @@ header{
     background-position: center;
     min-height: 300px;
     background-repeat: no-repeat;
-    padding: 25px 0px 45px;
-
+    padding: 25px 0px 0px;
+    background-size: cover; 
+    object-fit: cover; 
+    position: relative; 
+}
+.about::before{
+    content: "";
+      background-image: url('../IMG/4.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2;
 }
 .about__inner{
     display: flex;
@@ -445,7 +458,12 @@ header{
 .section4{
     display: flex;
     justify-content: space-between;
-    color: #000;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    line-height: 22px;
+    color: #181818;
+    font-size: 14px;
 }
 /* .title__about{
     font-weight: bold;
@@ -458,15 +476,15 @@ header{
 .about__title{
     font-family: 'Roboto', sans-serif;
     padding: 10px 0px;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 24px;
-    color: #000;
+    color: #212020;
     font-weight: 500;
 }
 .about__text p{
     margin-bottom: 30px;
     letter-spacing: 0.1px;
-    line-height: 24px;
+    line-height: 22px;
     color: #181818;
     font-size: 16px;
  }
@@ -501,15 +519,19 @@ header{
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.2;
+      filter: brightness(25%)
 }
 .timeline .timeline__top{
     margin-top: 30px;
+}
+.timeline .timeline__title, .timeline__text{
+    color: rgb(240, 227, 227) !important;
 }
 .timeline .abc{
     display: flex;
     border-top: 2px solid #0168b4;
     border-bottom: 2px solid #0168b4; 
+    position: relative;
     /* margin-top: 10px; */
     
 }
@@ -519,7 +541,7 @@ header{
 .timeline .abcd{
     display: flex;
     justify-content: space-between;  
-    
+    position: relative;
 }
 .timeline .a1{
     padding: 15px;
@@ -565,14 +587,15 @@ header{
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: #5e5e5e;
+    color: rgb(240, 227, 227) ;
+    
 }
 .timeline h4 {
     font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
-    color: #5e5e5e;
+    color: rgb(240, 227, 227) ;
     font-weight: bold;
 }
 .timeline h3 {
@@ -580,7 +603,7 @@ header{
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
-    color: #000000;
+    color: rgb(240, 227, 227) ;
     font-weight: bold;
 }
 
@@ -737,29 +760,9 @@ header{
     line-height: 24px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    padding: 60px 0 15px;
-    position: relative;
+    padding: 30px 0 15px;
 }
-.advant__title::before{
-    content: "";
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    border: 2px solid #0168b4;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
 
-}
-.advant__title::after{
-    content: "\f00c";
-    font-family: 'icomoon';
-    font-size: 14px;
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .advant__text{
     line-height: 24px;
     color: #d3d2d2;
