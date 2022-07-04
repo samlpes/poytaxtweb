@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="CSS/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="CSS/slick.css">
+    <link rel="stylesheet" href="CSS/jquery.formstyler.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="CSS/jquery.formstyler.theme.css"> -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Poytaxt Group</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container">
+                <div class="header__contacts">
+                    <a class="header__phone" href="tel:998 90 309 21 45">+998 90 309 21 45</a>
+                    <a class="header__email" href="mailto:">layout585@gmail.com</a>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn" href="#">
+                        Бесплатная консультация
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="container">
+                <div class="header__content-inner">
+                    <div class="header__logo">
+                        <a href="#">
+                            <img src="img/logo.png" alt="">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
+                        <ul>
+                            <li><a href="#">Главная</a></li>
+                            <li><a href="#a">Наши товары</a></li>
+                            <li><a href="#b">Наши услуги</a></li>
+                            <li><a href="#c">История</a></li>
+                            <li><a href="#d">Сотрудники</a></li>
+                            <li><a href="#e">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- <?php $images = scandir('./IMG/slider/'); ?> -->
+    <!-- <div id="carouselExampleIndicators" class="carousel slide carouse-fade" data-ride="carousel"> -->
+
+    <!-- <div class="carousel-inner">
+        <?php for($i = 2; $i < count($images); $i++): ?>
+            <div class="carousel-item <?php if($i == 2){echo 'active';} ?>">
+                <img class="d-block w-100" src="./IMG/slider/<?php echo $images[$i]; ?>" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider__title">
+                        POYTAXT GROUP
+                    </div>
+                    <div class="slider__text">
+                        Специализируемся на оптовых поставках бумаги, картона и других видов целлюлозно-бумажной
+                        продукции, сотрудничая с крупнейшими иностранными производителями
+                    </div>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Связаться с Нами
+                    </a>
+                </div>
+            </div>
+            <?php endfor; ?>     
+        </div>
+    </div> -->
+
+    <div id="carouselExampleIndicators" class="carousel slide carouse-fade" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="./IMG/slider/1.jpg" alt="Первый слайд">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider__title">
+                        POYTAXT GROUP
+                    </div>
+                    <div class="slider__text">
+                        Специализируемся на оптовых поставках бумаги, картона и других видов целлюлозно-бумажной
+                        продукции, сотрудничая с крупнейшими иностранными производителями
+                    </div>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Связаться с Нами
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./IMG/slider/2.jpg" alt="Второй слайд">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider__title">
+                        POYTAXT GROUP
+                    </div>
+                    <div class="slider__text">
+                        Специализируемся на оптовых поставках бумаги, картона и других видов целлюлозно-бумажной
+                        продукции, сотрудничая с крупнейшими иностранными производителями
+                    </div>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Связаться с Нами
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./IMG/slider/3.jpg" alt="Третий слайд">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider__title">
+                        POYTAXT GROUP
+                    </div>
+                    <div class="slider__text">
+                        Специализируемся на оптовых поставках бумаги, картона и других видов целлюлозно-бумажной
+                        продукции, сотрудничая с крупнейшими иностранными производителями
+                    </div>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Связаться с Нами
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="./IMG/slider/4.jpg" alt="Четвертый слайд">
+                <div class="carousel-caption d-none d-md-block">
+                    <div class="slider__title">
+                        POYTAXT GROUP
+                    </div>
+                    <div class="slider__text">
+                        Специализируемся на оптовых поставках бумаги, картона и других видов целлюлозно-бумажной
+                        продукции, сотрудничая с крупнейшими иностранными производителями
+                    </div>
+                    <a data-fancybox data-src="#modal" href="javascript:;" class="slider__btn default-btn">
+                        Связаться с Нами
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="c" class="about">
+        <div class="container">
+            <div class="about__inner">
+                <div class="about__inner-part1">
+                    <div class="about__title">
+                        О нас
+                    </div>
+                    <div class="about__text">
+                        <p>
+                            Наша компания была образована в 2006 году, и уже на протяжении 16 лет активно
+                            занимается поставками и торговлей картонно-бумажной продукции, в основном в упаковочной 
+                            и полиграфической промышленности Узбекистана. Наша клиентская база стремительно увеличивается 
+                            и на данный момент у нас более 800 клиентов по всему Узбекистану. Мы продаем 
+                            более 2000 тонн/месяц бумажной продукции. Имеем собственный таможенный терминал и склад 
+                            хранения общая площадь которой составляет 7000 кв.м.
+                        </p>
+                        <p>
+                            В 2014 году мы начали производство флаторезки; сегодня мы производим более 500 тонн бумаги и картона в месяц.
+                        </p>
+                        <p>
+                            Нашим основным конкурентным преимуществом является создание новых торговых каналов 
+                            в Узбекистане для производителей целлюлозы и бумаги. Представляем интересы таких крупных 
+                            компаний как: Mondi Сыктывкар (Россия), Архангельский АЦБК (Россия), 
+                            KOTKAMILLS OY (Финляндия) на территории Узбекистана.
+                        </p>
+                    </div>
+                </div>
+                    <div class="inner__about">
+                        <div class="section1">
+                            <div class="about__section1">
+                                <p class="about__title">200</p>
+                                <p class="about__text xc">и более позиций</p>
+                                <p class="about__text">в ассоритименте</p>
+                            </div>
+                            <div class="about__section2">
+                                <p class="about__title">70</p>
+                                <p class="about__text">сотрудников</p>
+                            </div>              
+                        </div>
+                        <div class="section2">
+                            <div class="about__section1">
+                                <p class="about__title">2000</p>
+                                <p class="about__text">и более продукции</p>
+                            </div>
+                            <div class="about__section2">
+                                <p class="about__title">7000</p>
+                                <p class="about__text">м.кв (склад)</p>
+                            </div>
+                        </div>
+                        <div class="section3">
+                            <div class="about__section1">
+                                <p class="about__title">800</p>
+                                <p class="about__text xc">и свыше покупателей</p>
+                                <p class="about__text">16 лет опыта</p>
+                            </div>
+                            <div class="about__section2">
+                                <p class="about__title">25000тн/год</p>
+                                <p class="about__text xc">поставки целлюлозно-</p>
+                                <p class="about__text">бумажной продукции</p>
+                            </div>
+                        </div>
+                        <div class="section4">
+                            <div class="about__section1">
+                                <p class="about__title">2</p>
+                                <p class="about__text">флаторезки</p>
+                            </div>
+                            <div class="about__section2">
+                                <p class="about__title">1</p>
+                                <p class="about__text">бобинорезка</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </section>
+  
+    <section class="timeline">
+        <div class="container">
+            <h3>История Развития </h3>
+            <div class="abc">
+                <div class="a">
+                    <h2>2007</h2>
+                    <p>Компания активно участвует в поставках и торговле картонными и бумажными изделиями</p>
+                    <h4>100 тонн/год</h4>
+                    <p>Упановочной и полиграфической промышленности Узбекистана</p>
+                    <p>Количество сотрудников 3 человека</p>
+
+                </div>
+                <div class="a">
+                    <h2>2012</h2>
+                    <p>Приобретение склада с доступом к железнодорожной ветке. <br>Создание таможенного склада.</p>
+                    <h4>800 кв.м</h4>
+                    <p>Поставки целлюлозно-бумажной продукции</p>
+                    <h4>1 000 тонн/год</h4>
+                    <p>Количество сотрудников 20 человек</p>
+                </div>
+                <div class="a">
+                    <h2>2016</h2>
+                    <p>Строительство нового склада. Площадь:</p>
+                    <h4>3 000 кв.м</h4>
+                    <p>Поставки целлюлозно-бумажной продукции</p>
+                    <h4>7 250 тонн/год</h4>
+                    <p>Количество сотрудников 40 человек</p>
+                </div>
+                <div class="a">
+                    <h2>2019</h2>
+                    <p>Поставки целлюлозно-бумажной продукции</p>
+                    <h4>15 000 тонн/год</h4>
+                    <p>Количество сотрудников 55 человек</p>
+                </div>
+            </div> 
+            <div class="abcd">
+                <div class="a">
+                    <h2>2010</h2>
+                    <p>Поставки целлюлозно-бумажной продукции</p>
+                    <h4>250 тонн/год</h4>
+                    <p>Количество сотрудников 10 человек</p>
+                </div><div class="a">
+                    <h2>2014</h2>
+                    <p>Строительство нового склада. Площадь:</p>
+                    <h4>1 500 кв.м</h4>
+                    <p>Приобретена первая флаторезка. Количество порезанной продукции:</p>
+                    <h4>600 тонн/год</h4>
+                    <p>Поставки целлюлозно-бумажной продукции</p>
+                    <h4>2 600 тонн/год</h4>
+                    <p>Количество сотрудников 30 человек</p>
+
+                </div><div class="a">
+                    <h2>2018</h2>
+                    <p>Приобретена вторая флаторезка. Количество порезанной продукции:</p>
+                    <h4>1 800 тонн/год</h4>
+                    <p>Приобритение гильотины. <br>Поставки целлюлозно-бумажной продукции: </p>
+                    <h4>12 000 тонн/год</h4>
+                    <p>Количество сотрудников 50 человек</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="a" class="service">
+        <div class="container">
+            <div class="service__top">
+                <div class="service__title-box">
+                    <div class="service__title">
+                        Наши товары
+                    </div>
+                    <div class="service__text">
+                        Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во
+                        всех судебных инстанциях.
+                    </div>
+                </div>
+            </div>
+            <div class="service__items">
+                <div class="service__item img8">
+                    <div class="service__item-title">
+                        Самоклейка
+                    </div>
+                </div>
+                <div class="service__item img5">
+                    <div class="service__item-title">
+                        Мелованная бумага
+                    </div>
+                </div> 
+                <div class="service__item img9">
+                    <div class="service__item-title">
+                        Офсетная бумага
+                    </div>
+                </div>
+            </div>
+            <div class="service__items">
+                <div class="service__item img4">
+                    <div class="service__item-title">
+                        Крафтлайнер
+                    </div>
+                </div>
+                <div class="service__item img3">
+                    <div class="service__item-title">
+                        Крафт бумага
+                    </div>
+                </div>
+                <div class="service__item img2">
+                    <div class="service__item-title">
+                        Картон
+                    </div>
+                </div> 
+            </div>
+            <div class="service__items">
+                <div class="service__item img7">
+                    <div class="service__item-title">
+                        Этикетка 
+                    </div>
+                </div>
+                <div class="service__item img1">
+                    <div class="service__item-title">
+                        Бумага основа
+                    </div>
+                </div> 
+                <div class="service__item img6">
+                    <div class="service__item-title">
+                        Тестлайнер монди
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="b" class="service">
+        <div class="container">
+            <div class="service__top">
+                <div class="service__title-box">
+                    <div class="service__title">
+                        Наши услуги
+                    </div>
+                    <div class="service__text">
+                        Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во
+                        всех судебных инстанциях.
+                    </div>
+                </div>
+            </div>
+            <div class="service__items">
+                <div class="service__item img10">
+                    <div class="service__item-title">
+                        Флаторезка
+                    </div>
+                </div>
+                <div class="service__item img11">
+                    <div class="service__item-title">
+                        Доставка 
+                    </div>
+                </div>
+                <div class="service__item img12">
+                    <div class="service__item-title">
+                        Бобинорезка
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="advant">
+        <div class="container">
+            <div class="advant__inner">
+                <div class="advant-item">
+                    <img src="..\IMG\logo\1.png" alt="" style="height: 100px; width: auto;">
+                    <div class="advant__title">
+                        Десятки добровольных ликвидаций ежемесячно
+                    </div>                    
+
+                    <div class="advant__text">
+                        Мы умеем минимизировать все риски в процессе добровольной ликвидации юридических лиц.
+                    </div>
+                </div>
+                <div class="advant-item">
+                    <img src="..\IMG\logo\2.png" alt="" style="height: 100px; width: auto;">
+                    <div class="advant__title">
+                        Отличное знание законов в сфере банкротства
+                    </div>
+                    <div class="advant__text">
+                        Позволяют нам эффективно отстаивать как интересы кредиторов, так и интересы собственников
+                        проблемной организации.
+                    </div>
+                </div>
+                <div class="advant-item">
+                    <img src="..\IMG\logo\3.png" alt="" style="height: 100px; width: auto;">
+
+                    <div class="advant__title">
+                        Большой опыт сопровождения банкротства
+                    </div>
+                    <div class="advant__text">
+                        Мы обладаем большим опытом сопровождения процедур банкротства предприятий.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+  
+
+    
+    <section id="d" class="news">
+        <div class="container">
+            <div class="news__top">
+                <div class="news__title-box">
+                    <div class="news__title">
+                        Сотрудники
+                    </div>
+                    <div class="news__text">
+                        Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во
+                        всех судебных инстанциях.
+                    </div>
+                </div>
+            </div>
+            <div class="news__inner">
+                <div class="workers">
+                    <div class="news__images">
+                        <img src="IMG/малика.png" alt="">
+                    </div>
+                    <div class="news__blog-title">
+                        Малика Султанмурадова
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих
+                        специализации в отдельных областях права...»
+                    </div>
+                </div>
+                <div class="workers">
+                    <div class="news__images">
+                        <img src="IMG/бегзод.png" alt="">
+                    </div>
+                    <div class="news__blog-title">
+                        Абдусаматов Бегзод
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих
+                        специализации в отдельных областях права...»
+                    </div>
+                </div>
+                <div class="workers">
+                    <div class="news__images">
+                        <img src="IMG/малика.png" alt="">
+                    </div>
+                    <div class="news__blog-title">
+                        Исламова Динара
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих
+                        специализации в отдельных областях права...»
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+    <section  class="news">
+        <div class="container">
+            <div class="news__top">
+                <div class="news__title-box">
+                    <div class="news__title">
+                        Новости Компании
+                    </div>
+                    <div class="news__text">
+                        Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов во
+                        всех судебных инстанциях.
+                    </div>
+                </div>
+                <div class="news__btn">
+                    <a href="#">
+                        Открыть все новости
+                    </a>
+                </div>
+            </div>
+            <div class="news__inner">
+                <div class="news__slider">
+                    <div class="news__slider-inner">
+                        <div class="news__slider-item">
+                            <div class="news__slider-title">
+                                Банкротство и ликвидация предприятия в Украине
+                            </div>
+                            <div class="news__slider-text">
+                                «На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов
+                                имеющих специализации в отдельных областях права. На сегодняшний день, коллектив
+                                компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных
+                                областях права. На сегодняшний день, коллектив компании объединяет
+                                высокопрофессиональных экспертов имеющих специализации в отдельных областях права...»
+                            </div>
+                            <div class="news__slider-author">
+                                Андрей Ворошилов, генеральный д иректор компании Bankom
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="news__blog">
+                    <div class="news__images">
+                        <img src="IMG/news-1.jpg" alt="">
+                        <div class="news__date">03.04</div>
+                    </div>
+                    <div class="news__blog-title">
+                        Сотрудники
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих
+                        специализации в отдельных областях права...»
+                    </div>
+                </a>
+                <a href="#" class="news__blog">
+                    <div class="news__images">
+                        <img src="IMG/news-2.jpg" alt="">
+                        <div class="news__date">03.04</div>
+                    </div>
+                    <div class="news__blog-title">
+                        Новость компании
+                    </div>
+                    <div class="news__blog-text">
+                        На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих
+                        специализации в отдельных областях права...»
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="form">
+        <div class="container">
+            <div class="form__inner">
+                <div class="form__content">
+                    <div class="form__title-box">
+                        <div class="form__title">
+                            Заказать обратный звонок
+                        </div>
+                        <div class="form-text">
+                            Комплексный подход к вашему вопросу, своевременная правовую помощь, представление интересов
+                            во всех судебных инстанциях.
+                        </div>
+                    </div>
+                    <div class="form__box">
+                        <form action="./mail/totelegram.php" method="POST">
+                            <div class="form__box-inner">
+                                <div class="form__box-left">
+                                    <label>
+                                        Ваша почта
+                                        <input type="email" name="email">
+                                      </label>
+                                    <label>
+                                        Контактный телефон
+                                        <input type="text" name="phone">
+                                    </label>
+                                    <label>
+                                        ФИО
+                                        <input type="text" name="name">
+                                    </label>
+                                </div>
+                                <div class="form__box-right">
+                                    <label>
+                                        Сообщение
+                                        <textarea name="content"></textarea>
+                                    </label>
+                                    <button class="default-btn" type="submit">Получить консультацию</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <div class="footer__title">
+                            Комплексное закрытие предприятия
+                        </div>
+                        <div class="footer__text">
+                            Полное прекращение существования юридического лица с сохранением легальности всей предыдущей
+                            деятельности.
+                        </div>
+                        <ul class="footer__list">
+                            <li> <a data-fancybox data-src="#modal" href="javascript:;" class="header__btn " href="#">Бесплатная
+                                консультация
+                            </a></li>
+                            <li><a class="footer__phone" href="tel:998 90 309 21 45">+998 90 309 21 45</a></li>
+                            <li><a href="#">layout585@gmail.com</a></li>
+                            <li><a class="footer__address" href="#">Tashkent, Amir Temur Square</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__map">
+                        <iframe width="630px" height="250px"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.895399846601!2d69.27740401479836!3d41.31113907927115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f23%3A0x81095e06b654b845!2sAmir%20Temur%20Square!5e0!3m2!1sen!2s!4v1654595776515!5m2!1sen!2s"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="modal">
+        <form action="./mail/totelegram.php"
+        method="POST">
+        <label>
+            Ваше имя
+            <input type="name" name="name">
+          </label>
+          <label>
+            Ваше телефон
+            <input type="text" name="phone">
+          </label>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JS/jquery.fancybox.min.js"></script>
+    <script src="JS/slick.min.js"></script>
+    <script src="JS/jquery.formstyler.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous">
+    </script>
+    <script src="JS/lang.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
