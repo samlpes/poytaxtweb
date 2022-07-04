@@ -259,21 +259,21 @@ header{
     padding: 50px 0px 30px;
 }
 .service__top,
-.news__top{
+.news__top, .timeline__top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 .service__title-box,
 .form__title-box,
-.news__title-box{
+.news__title-box, .timeline__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 .service__title-box::before,
 .form__title-box::before,
-.news__title-box::before{
+.news__title-box::before, .timeline__title-box::before{
     content: "";
     position: absolute;
     width: 100px;
@@ -284,7 +284,7 @@ header{
 }
 .service__title,
 .form__title,
-.news__title{
+.news__title, .timeline__title{
     font-size: 24px;
     line-height: 24px;
     font-weight: 500;
@@ -294,8 +294,9 @@ header{
 }
 .service__text,
 .form__text,
-.news__text{
+.news__text, .timeline__text{
     letter-spacing: 0.1px;
+    color: #5e5e5e;
 }
 .service__btn a,
 .news__btn a{
@@ -482,28 +483,106 @@ header{
 /* timeline */
 
 .timeline{
-    background: rgb(160, 133, 133);
     color: #FFF;
-    padding: 50px 0;
- 
+    padding: 10px 0;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    object-fit: cover; 
+    position: relative; 
+    margin-bottom: 30px;
+}
+.timeline::before{
+    content: "";
+      background-image: url('../IMG/4.png');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2;
+}
+.timeline .timeline__top{
+    margin-top: 30px;
 }
 .timeline .abc{
     display: flex;
-    justify-content: space-between;
+    border-top: 2px solid #0168b4;
     border-bottom: 2px solid #0168b4; 
-    margin-top: 50px;
+    /* margin-top: 10px; */
+    
+}
+.timeline p b{
+    font-size: 18px;
 }
 .timeline .abcd{
     display: flex;
-    justify-content: space-between;    
-}
-.timeline .a{
-   padding: 15px;
-    border-left: 2px solid #b90c0c;
+    justify-content: space-between;  
     
 }
-
-
+.timeline .a1{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
+    height: 220px;
+    
+}.timeline .a2{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
+    height: 255px;
+    margin-bottom: 20px;
+    
+}.timeline .a3{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
+    height: 150px;
+    
+}.timeline .a4{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
+    height: 310px;
+    
+}.timeline .a5{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
+    height: 255px;
+}
+.timeline h2{
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #0168b4;
+    margin-bottom: 10px;
+}
+.timeline p{
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+}
+.timeline h4 {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #5e5e5e;
+    font-weight: bold;
+}
+.timeline h3 {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: bold;
+}
 
 /* consultation */
 
