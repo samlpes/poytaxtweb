@@ -259,21 +259,21 @@ header{
     padding: 50px 0px 30px;
 }
 .service__top,
-.news__top, .timeline__top{
+.news__top, .timeline__top, .heading__top{
     display: flex;
     justify-content: space-between;
     margin-bottom: 60px;
 }
 .service__title-box,
 .form__title-box,
-.news__title-box, .timeline__title-box{
+.news__title-box, .timeline__title-box, .heading__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
 }
 .service__title-box::before,
 .form__title-box::before,
-.news__title-box::before, .timeline__title-box::before{
+.news__title-box::before, .timeline__title-box::before, .heading__title-box::before{
     content: "";
     position: absolute;
     width: 100px;
@@ -284,7 +284,7 @@ header{
 }
 .service__title,
 .form__title,
-.news__title, .timeline__title{
+.news__title, .timeline__title, .heading__title{
     font-size: 24px;
     line-height: 24px;
     font-weight: 500;
@@ -294,7 +294,7 @@ header{
 }
 .service__text,
 .form__text,
-.news__text, .timeline__text{
+.news__text, .timeline__text, .heading__text{
     letter-spacing: 0.1px;
     color: #5e5e5e;
 }
@@ -508,32 +508,35 @@ header{
     background-size: cover; 
     object-fit: cover; 
     position: relative; 
-    margin-bottom: 30px;
+    /* margin-bottom: 10px; */
 }
 .timeline::before{
     content: "";
-      background-image: url('../IMG/4.png');
+      background-image: url('../IMG/about.png');
       background-size: cover;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      filter: brightness(25%)
+      /* filter: brightness(25%) */
+      opacity: 0.95;
 }
 .timeline .timeline__top{
     margin-top: 30px;
+    margin-bottom: 30px !important;
 }
-.timeline .timeline__title, .timeline__text{
-    color: rgb(240, 227, 227) !important;
+.timeline .timeline__title{
+    color: #0168b4 !important;
+}
+.timeline .timeline__text{
+    color: rgb(240, 227, 227);
 }
 .timeline .abc{
     display: flex;
     border-top: 2px solid #0168b4;
-    border-bottom: 2px solid #0168b4; 
     position: relative;
-    /* margin-top: 10px; */
-    
+    transform: rotate(180deg);
 }
 .timeline p b{
     font-size: 18px;
@@ -542,44 +545,58 @@ header{
     display: flex;
     justify-content: space-between;  
     position: relative;
+    
 }
 .timeline .a1{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 220px;
-    
+    height: 235px;
+    transform: rotate(180deg);
 }.timeline .a2{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
     height: 255px;
-    margin-bottom: 20px;
-    
+    /* margin-bottom: 20px; */
+    transform: rotate(180deg);
 }.timeline .a3{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
+    height: 160px;
+    transform: rotate(180deg);
+}
+.timeline .a31{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
     height: 150px;
-    
 }.timeline .a4{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
     height: 310px;
+    margin-bottom: 30px;
     
 }.timeline .a5{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 255px;
+    height: 245px;
+}
+.timeline .a6{
+    padding: 15px;
+    border-left: 2px solid #b90c0c;
+    width: 80%;
+    height: 265px;
 }
 .timeline h2{
     font-size: 24px;
     line-height: 24px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    color: #0168b4;
+    color: #0168b4  ;
     margin-bottom: 10px;
 }
 .timeline p{
@@ -608,7 +625,37 @@ header{
 }
 
 /* consultation */
-
+/* advantages */
+.adv{
+    background: rgb(211, 205, 205);
+    padding-top: 30px;
+}
+.adv .heading__title{
+    color: #0168b4 !important;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+.adv .all .content{
+    display: flex; 
+    position: relative;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+}
+.adv .all .content img{
+    width: 80px;
+    margin-bottom: 20px;
+}
+.adv .all .content .a{
+    text-align: center;
+    /* margin-left: 50px */
+    font-size: 16px;
+}
+.adv .all .imag img{
+    width: 350px;
+}
 .form{
     padding-top: 30px;
 }
