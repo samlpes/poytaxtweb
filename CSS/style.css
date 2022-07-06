@@ -710,7 +710,7 @@ header{
     color: #fff;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ! important;
 }
 .advant-item{
     max-width: 360px;
