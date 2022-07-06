@@ -205,10 +205,15 @@ header{
 
 .service{
     padding: 50px 0px 30px;
+    /* background: #f8f8f8; */
+}
+#b{
+    background: #f9f9f9;
 }
 .service__top,
 .news__top, 
-.timeline__top,
+.timeline__top, 
+.heading__top,
 .cycle__top{
     display: flex;
     justify-content: space-between;
@@ -218,7 +223,8 @@ header{
 .form__title-box,
 .news__title-box, 
 .timeline__title-box,
-.cycle__title-box{
+.cycle__title-box,
+.heading__title-box{
     max-width: 520px;
     padding-left: 140px;
     position: relative;
@@ -227,7 +233,8 @@ header{
 .form__title-box::before,
 .news__title-box::before, 
 .timeline__title-box::before,
-.cycle__title::before{
+.cycle__title::before,
+.heading__title-box::before{
     content: "";
     position: absolute;
     width: 100px;
@@ -240,7 +247,8 @@ header{
 .form__title,
 .news__title, 
 .timeline__title,
-.cycle__title{
+.cycle__title,
+.heading__title{
     font-size: 24px;
     line-height: 24px;
     font-weight: 500;
@@ -368,14 +376,14 @@ header{
     background-position: center;
     min-height: 300px;
     background-repeat: no-repeat;
-    padding: 25px 0px 0px;
+    padding: 55px 0px 0px;
     background-size: cover; 
     object-fit: cover; 
     position: relative; 
 }
 .about::before{
     content: "";
-      background-image: url('../IMG/4.png');
+      /* background: #f9f9f9; */
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -457,7 +465,7 @@ header{
 }
 .timeline::before{
     content: "";
-      background-image: url('../IMG/about.png');
+      background: #f9f9f9;
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -465,17 +473,17 @@ header{
       bottom: 0px;
       left: 0px;
       /* filter: brightness(25%) */
-      opacity: 0.95;
+      /* opacity: 0.95; */
 }
 .timeline .timeline__top{
-    margin-top: 30px;
-    margin-bottom: 30px !important;
+    margin-top: 40px;
+    margin-bottom: 40px !important;
 }
 .timeline .timeline__title{
-    color: #0168b4 !important;
+    color: #181818 !important;
 }
 .timeline .timeline__text{
-    color: rgb(240, 227, 227);
+    color: #181818;
 }
 .timeline .abc{
     display: flex;
@@ -490,7 +498,7 @@ header{
     display: flex;
     justify-content: space-between;  
     position: relative;
-    
+    margin-bottom: 30px;
 }
 .timeline .a1{
     padding: 15px;
@@ -541,7 +549,7 @@ header{
     line-height: 24px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
-    color: #0168b4  ;
+    color: #181818  ;
     margin-bottom: 10px;
 }
 .timeline p{
@@ -549,7 +557,7 @@ header{
     font-weight: 400;
     font-size: 14px;
     line-height: 18px;
-    color: rgb(240, 227, 227) ;
+    color: #181818 ;
     
 }
 .timeline h4 {
@@ -557,30 +565,16 @@ header{
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
-    color: rgb(240, 227, 227) ;
+    color: #181818 ;
     font-weight: bold;
 }
-.timeline h3 {
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
-    color: rgb(240, 227, 227) ;
-    font-weight: bold;
-}
+
 
 /* consultation */
 /* advantages */
 .adv{
-    background: rgb(211, 205, 205);
+    background: #f9f9f9;
     padding-top: 30px;
-}
-.adv .heading__title{
-    color: #0168b4 !important;
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
 }
 .adv .all .content{
     display: flex; 
@@ -590,22 +584,27 @@ header{
     justify-content: space-between;
 }
 .adv .all .content img{
-    width: 80px;
-    margin-bottom: 20px;
+    width: 60px;
+    margin-bottom: 30px;
 }
 .adv .all .content .a{
     text-align: center;
     /* margin-left: 50px */
     font-size: 16px;
+    width: 300px;
 }
+
 .adv .all .imag img{
-    width: 350px;
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 60px;
 }
 
 /* consultation */
 
 .form{
     padding-top: 30px;
+    background: #f9f9f9;
 }
 
 .form__inner{
@@ -734,14 +733,30 @@ header{
 
 .advant{
     padding: 55px 0px 40px;
-    background-image: url(../IMG/3items.jpg);
+    /* background-image: url(../IMG/3items.jpg); */
     background-repeat: no-repeat;
     background-position: center;
     min-height: 285px;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    object-fit: cover; 
+    position: relative; 
+}
+ .advant::before{
+    content: "";
+    background-image: url(../IMG/3items.jpg);
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.7;
 }
 .advant__inner{
-    color: #fff;
+    color: #181818;
     text-align: center;
     display: flex;
     justify-content: space-between ! important;
@@ -750,6 +765,7 @@ header{
     max-width: 200px;
     width: 100%;
     padding: 0px 20px;
+    position: relative;
 }
 .advant__title{
     font-size: 18px;
@@ -769,6 +785,7 @@ header{
 
 .cycle{
     padding: 55px 0px 110px;
+    background: #f9f9f9;
 }
 
 .cycle__inner{
@@ -806,8 +823,8 @@ header{
 /* news */ 
 
 .news{
-    padding: 55px 0px 110px;
-    background-color: #f9f9f9;
+    padding: 55px 0px 65px;
+    background-color: #fff;
 } 
 .news__inner{
     display: flex;
