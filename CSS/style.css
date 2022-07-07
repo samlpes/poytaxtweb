@@ -420,17 +420,23 @@ header{
 
 .about__section1,
 .about__section2{
-    margin-bottom: 20px;
+    margin-bottom: 70px;
 }
 
 .about__section1{
     width: 230px;
     margin-left: 123px;
+    
 }
 .about__section2{
     width: 220px;
 }
-
+.section1{
+    margin-top: 30px;
+}
+.section2{
+    margin-top: 20px;
+}
 .section1,
 .section2,
 .section3,
@@ -462,8 +468,20 @@ header{
 .xc{
     margin-bottom: 0 !important;
 }
+/* .about1 {
+    background: #f9f9f9;
+} */
+.info{
+    margin-top: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    /* border-bottom: 2px solid #0168b4; */
 
-
+}
+    /* .info-inner{
+        padding-right: 100px;
+    } */
 /* timeline */
 
 .timeline{
