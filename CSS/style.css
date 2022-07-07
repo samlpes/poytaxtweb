@@ -407,7 +407,7 @@ header{
 }
 .about__inner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
 }
 .about__inner-part1{
     max-width: 585px;
@@ -471,17 +471,30 @@ header{
 /* .about1 {
     background: #f9f9f9;
 } */
+.about1{
+   background-image: url(../IMG/bg.jpg);
+   background-size: cover; 
+   object-fit: cover; 
+   position: relative; 
+   background-repeat: no-repeat;
+}
 .info{
-    margin-top: 20px;
-    margin-bottom: 60px;
+    max-width: 1050px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
-    /* border-bottom: 2px solid #0168b4; */
-
+    /* border-top: 2px solid #0168b4; */
+    
 }
-    /* .info-inner{
-        padding-right: 100px;
-    } */
+
+.info-inner .about__title{
+   margin: 5px;
+}
+  .info-inner p{
+    color: #181818;
+  } 
+ 
 /* timeline */
 
 .timeline{
