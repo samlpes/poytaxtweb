@@ -1,4 +1,75 @@
-@media(max-width: 700px){
+@media only screen and (max-width : 1200px) {
+    .timeline h2{
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        color: #181818  ;
+        margin-bottom: 10px;
+    }
+    .timeline p{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    .timeline h4 {
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .about__text {
+        font-size: 14px;
+     }
+     .service__items{
+        flex-wrap: wrap !important;
+     }
+     .service__item{
+        max-width: 295px;
+    }
+    .service__item-title{
+        /* #212020 */
+        font-size: 16px;
+        
+    }
+    .advant-item .i1{
+        height: 50% !important;
+        width: 144% !important;
+    }
+    .advant-item .i2{
+        height: 50% !important;
+        width: 124% !important;
+    }
+    .advant-item .i3{
+        height: 60% !important;
+        width: 79% !important;
+    }
+    .news__inner{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:991.98px){
+    .about__inner{
+        display: none;
+        flex-wrap: wrap;
+    }
+    .news__inner{
+        flex-wrap: wrap;
+    }
+    .advant__inner,
+    .adv__content,
+    .cycle__inner{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:767.98px){
+
+}
+
+@media (max-width:575.98px){
+
+}
+
+/* @media(max-width: 700px){
     .header__btn{
         float: none;
     }
@@ -29,4 +100,4 @@
     .header__email{
         padding-right: 30px;
     }
-}
+} */
