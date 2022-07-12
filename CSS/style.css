@@ -145,9 +145,7 @@ header{
 #modal{
     display: none;
 }
-<<<<<<< Updated upstream
 
-=======
 /* #navbar */
 .navbar{
     padding: 0 !important;
@@ -168,7 +166,7 @@ header{
 .navbar .collapse {
     margin-left: 330px;
   }
->>>>>>> Stashed changes
+
 /* slider */
 
 
@@ -1227,8 +1225,7 @@ display: block;
 
 }
 
-<<<<<<< Updated upstream
-=======
+
 /* @media(max-width: 700px){
     .header__btn{
         float: none;
@@ -1265,4 +1262,4 @@ display: block;
 
 
 
->>>>>>> Stashed changes
+
