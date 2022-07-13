@@ -438,7 +438,7 @@ header{
 }
 
 .about__section1{
-    width: 300px;
+    width: 400px;
     margin-left: 123px;
     
 }
@@ -461,6 +461,7 @@ header{
     line-height: 22px;
     color: #181818;
     font-size: 14px;
+    text-align: center;
 }
 .about__title{
     font-family: 'Roboto', sans-serif;
@@ -495,6 +496,7 @@ header{
     display: flex;
     justify-content: space-between;
     /* border: 2px solid #0168b4; */
+    text-align: center;
     
 }
 
