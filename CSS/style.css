@@ -1304,6 +1304,7 @@ display: block;
      } */
      .service__item{
         max-width: 295px;
+        min-height: 350px;
     }
     .service__item-title{
         /* #212020 */
@@ -1419,8 +1420,8 @@ display: block;
         flex-wrap: wrap !important;
      } */
      .service__item{
-        max-width: 250px;
-        max-height: 100px;
+        max-width: 300px;
+        min-height: 280px;
     }
     .service__item-title{
         /* #212020 */
