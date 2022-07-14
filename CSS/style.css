@@ -935,13 +935,13 @@ header{
     margin-bottom: 30px;
 }
 .cycle__images img{
-    height: 110px;
-    width: 100px;
+    height: 90px;
+    width: 90px;
 }
-.cycle__images .cy_img{
+/* .cycle__images .cy_img{
     height: 120px;
     width: 110px;
-}
+} */
 
 /* cycle#1 */
 
@@ -985,6 +985,9 @@ header{
     position: relative;
     left: -2%;
     margin-top: 40px;
+}.cycle__item2 img{
+    height: 60px;
+    width: 60px;
 }.cycle__circle2{
     position: absolute;
     width: 70px;
@@ -1232,6 +1235,10 @@ display: block;
     left: 0;
     color: #fff;
 }
+.footer__map iframe{
+    max-width: 650px;
+    height: 250px;
+}
 .footer__list .footer__phone::before{
     content: '\f095';   
 }
@@ -1265,11 +1272,8 @@ display: block;
     color: #fff;
 }
 @media screen and (max-width: 1899.98px) {
-    .info .inf2{
-        margin-left: 125px;
-    }
     .cycle__item2{
-        left: -2.5%;
+        left: -1.5%;
     }
     /* .about1{
         visibility: hidden;
@@ -1282,6 +1286,7 @@ display: block;
     }
 }
 @media (max-width : 1199.98px) {
+    
     .cycle__item2{
         left: 0.5%;
     }
@@ -1330,16 +1335,16 @@ display: block;
         
     }
     .advant-item .i1{
-        height: 50% !important;
-        width: 144% !important;
+        height: 50% ;
+        width: 144% ;
     }
     .advant-item .i2{
-        height: 50% !important;
-        width: 124% !important;
+        height: 50% ;
+        width: 124% ;
     }
     .advant-item .i3{
-        height: 50% !important;
-        width: 79% !important;
+        height: 50% ;
+        width: 79% ;
     }
     .news__inner{
         /* flex-wrap: wrap; */
@@ -1378,6 +1383,16 @@ display: block;
     }
 }
  @media (max-width:991.98px){
+     .slider__title{
+        font-size: 24px ;
+    }.slider__text{
+        line-height: 20px;
+        font-size: 16px ;
+        color: #d3d2d2;
+        margin-bottom: 35px;
+    }.default-btn{
+        padding: 5px 25px 5px 20px !important;
+    }
     .about__inner{
         flex-wrap: wrap;
         justify-content: center;
@@ -1500,15 +1515,19 @@ display: block;
         max-width: 400px;
         width: 100%;
     }.footer__map iframe{
-        max-width: 10px !important;
-        height: 100px !important;
+        max-width: 500px ;
+        height: 250px ;
     }
 } 
 @media (max-width:972px){
-
+    .cycle__item1{
+        left: 39%;
+    }
 }
 @media (max-width:890px){
-
+    .cycle__item1{
+        left: 38%;
+    }
     .cycle__item{
         max-width: 220px;
         height: 300px;
@@ -1523,10 +1542,28 @@ display: block;
         font-size: 15px;
         margin-top: 65px;
     }
+    .footer__map iframe{
+        max-width: 450px;
+        height: 250px ;
+    }
 }
 
 @media (max-width:800px){
+    .cycle__item1{
+        left: 37%;
+    }
+    .slider__title{
+        font-size: 20px ;    
+    margin-bottom: 10px;
 
+    }.slider__text{
+        line-height: 20px;
+        font-size: 14px;
+        color: #d3d2d2;
+        margin-bottom: 20px;
+    }.default-btn{
+        padding: 5px 25px 5px 20px;
+    }
     .service__item{
         max-width: 200px;
         min-height: 180px;
@@ -1538,9 +1575,18 @@ display: block;
         font-size: 14px;
         
     }
+    .form__inner{
+        background: #f9f9f9;
+    }.footer__map iframe{
+        max-width: 350px;
+        height: 200px ;
+    }
 }
 
 @media (max-width:742.98px){
+    .cycle__item1{
+        left: 35%;
+    }
     .cycle__item{
         max-width: 200px;
         height: 180px;
@@ -1578,7 +1624,15 @@ display: block;
         margin: 0 auto;
         margin-bottom: 20px;
     }
-} .news__images img{
+    .footer__inner{
+        display: block;
+    }
+    .footer__map iframe{
+        margin-top: 25px;
+        max-width: 500px;
+    }
+
+ .news__images img{
     max-width: 200px !important;
 }
 .service__title, 
@@ -1589,10 +1643,12 @@ display: block;
 .heading__title {
     font-size: 22px;
 }
-
+}
 
 @media (max-width:646.98px){
-
+    .cycle__item1{
+        left: 33%;
+    }
     .service__item{
         max-width: 180px;
         min-height: 150px;
