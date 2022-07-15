@@ -1409,10 +1409,9 @@ display: block;
         font-size: 14px;
         line-height: 36px !important;
         background-color: #fff;
-        padding: 0px 0px !important;
+        padding: 0px 10px !important;
         transition: all .7s;
         color: #323232 !important;
-        display: flex !important;
     }
     .navbar-toggler{
         margin-bottom: 5px;
@@ -1609,7 +1608,7 @@ display: block;
     }
     .slider__title{
         font-size: 20px ;    
-    margin-bottom: 10px;
+        margin-bottom: 10px;
 
     }.slider__text{
         line-height: 20px;
@@ -1821,6 +1820,9 @@ display: block;
     }
 }
 @media (max-width: 590px){
+    .header__content {
+        padding: 15px 0px 15px;
+    }
     .carousel-caption {
         top: 40%;
     }
@@ -1969,9 +1971,40 @@ display: block;
     }
 }
 @media (max-width: 480px){
+    .service__title-box::before,
+    .form__title-box::before,
+    .news__title-box::before, 
+    .timeline__title-box::before,
+    .cycle__title::before,
+    .heading__title-box::before{
+        width: 50px;
+        height: 1px;
+    }
+    .carousel-inner .carousel-item img {
+        height: 49vw;
+    }
+    .service__title-box, 
+    .form__title-box, 
+    .news__title-box, 
+    .timeline__title-box, 
+    .cycle__title-box, 
+    .heading__title-box {
+        max-width: 280px;
+        padding-left: 60px;
+    }
+
     .carousel-caption {
         max-width: 330px;
-        top: 32%;
+        top: 45%;
+    }
+    .header__btn {
+        padding: 5px 20px 4px 21px
+    }
+    .header__btn::before {
+        left: 0px;
+    }
+    .header__contacts{
+        display: grid;
     }
     .default-btn {
         font-size: 8px;
@@ -2063,6 +2096,7 @@ display: block;
     .default-btn {
         font-size: 6px;
     }
+
 }
 
 
