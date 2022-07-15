@@ -488,7 +488,7 @@ header{
 .info{
     padding: 30px 0 20px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* border: 2px solid #0168b4; */
     text-align: center;
     
@@ -1933,7 +1933,7 @@ display: block;
     } 
     .info{
         display: grid;
-        justify-content: none; 
+        /* justify-content: none;  */
     }
     .footer__map iframe{
         margin-top: 25px;
