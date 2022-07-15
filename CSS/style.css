@@ -1934,6 +1934,7 @@ display: block;
     .info{
         display: grid;
         /* justify-content: none;  */
+        grid-template-columns: repeat(2, 1fr);
     }
     .footer__map iframe{
         margin-top: 25px;
@@ -2017,6 +2018,11 @@ display: block;
     }
     .about__title {
         font-size: 15px;
+    }
+    .info{
+        display: grid;
+        /* justify-content: none;  */
+        grid-template-columns: repeat(1, 1fr);
     }
 
 }
