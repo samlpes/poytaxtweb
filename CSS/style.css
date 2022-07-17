@@ -948,7 +948,7 @@ header{
     width: 240px;
     text-align: center;
     font-weight: bold;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 .cycle__images{
     text-align: center;
@@ -958,27 +958,6 @@ header{
     height: 90px;
     width: 90px;
 }
-/* .cycle__images .cy_img{
-    height: 120px;
-    width: 110px;
-} */
-
-/* cycle#1 */
-
-/* .top{
-    text-align: center;
-}
-.top::before{
-    content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  justify-content: center;
-}.cycle__prob{
-    display: inline-block;
-    vertical-align: middle;
-    justify-content: center;
-} */
 .cycle__inner{
     display: flex;
     justify-content: space-evenly;
@@ -1024,22 +1003,6 @@ header{
     left: -14px;
     z-index: 0;
 }
-/* .cycle__circle1{
-    position: absolute;
-    width: 70px;
-    height: 70px;
-    background: #f9f9f9;
-    border: 2px solid #b90c0c;
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 0 2px 10px #5e5e5e;
-    color: #b90c0c;
-    font-size: 20px;
-    padding-top:16px;
-    bottom: -40px;
-    left: 90px;
-    z-index: 0;
-} */
 .cycle__circle1 img{
     max-width: 25px !important;
     max-height: 25px !important;
@@ -1054,25 +1017,23 @@ header{
     line-height: 19px;
     width: 200px;
     text-align: center;
-    /* font-weight: bold; */
-    /* margin-bottom: 40px; */
     padding-left: 15px;
     padding-right: 15px;
-}.cycle__blog-title3{
+}
+.cycle__blog-title3{
     font-size: 15px;
     line-height: 19px;
     width: 200px;
     text-align: center;
-    /* font-weight: bold; */
     margin-top: -15px;
     padding-left: 15px;
     padding-right: 15px;
-}.cycle__blog-title2{
+}
+.cycle__blog-title2{
     font-size: 15px;
     line-height: 19px;
     width: 200px;
     text-align: center;
-    /* font-weight: bold; */
     margin-top: 30px;
     padding-left: 15px;
     padding-right: 15px;
@@ -1663,7 +1624,7 @@ display: block;
     }
     .cycle__item{
         max-width: 200px;
-        height: 180px;
+        height: 200px;
         padding: 20px 1px;
     }
     .cycle__circle{
@@ -1674,7 +1635,7 @@ display: block;
     .cycle__blog-title{
         width: 170px;
         font-size: 13px;
-        margin-top: 25px;
+        margin-top: 40px;
     }
     .cycle__images img{
         height: 70px;
@@ -1874,7 +1835,7 @@ display: block;
     .cycle__blog-title {
         width: 150px;
         font-size: 12px;
-        margin-top: 19px;
+        margin-top: 40px;
     }
     .cycle__circle {
         width: 45px;
@@ -1882,8 +1843,8 @@ display: block;
         padding-top: 12px;
     }
     .cycle__item {
-        max-width: 160px;
-        height: 170px;
+        width: 160px;
+        height: 200px;
         padding: 20px 1px;
         margin-bottom: 30px;
     }
