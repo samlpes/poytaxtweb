@@ -175,7 +175,9 @@ header{
 }
 /* slider */
 
-
+.carousel{
+    margin-top: 140px;
+}
 .carousel-inner .carousel-item img{ 
     
     background-repeat: no-repeat;
@@ -1356,9 +1358,7 @@ display: block;
     }.news__blog {
         max-width: 220px;
         width: 100%;
-    } .news__images img{
-        max-width: 200px;
-    }
+    } 
     .adv__text{
         font-size: 14px;
     }.adv__imag img{
@@ -1487,7 +1487,6 @@ display: block;
         
     }
     .workers{
-        max-width: 400px;
         margin: 0 auto;
         margin-bottom: 20px;
     }.advant{
@@ -1619,6 +1618,7 @@ display: block;
 }
 
 @media (max-width:742.98px){
+    
     .advant{
         min-height: 245px;
     }
@@ -1677,7 +1677,6 @@ display: block;
         padding: 5px 10px 5px 10px;
     }
     .workers{
-        max-width: 200px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -1694,6 +1693,8 @@ display: block;
 
  .news__images img{
     max-width: 200px !important;
+}.workers{
+    width: 200px;
 }
 .service__title, 
 .form__title, 
@@ -1801,6 +1802,9 @@ display: block;
     }
 }
 @media (max-width: 590px){
+    .carousel{
+        margin-top: 120px;
+    }
     .header__content {
         padding: 15px 0px 15px;
     }
@@ -1951,7 +1955,10 @@ display: block;
         display: none;
     }
 }
-@media (max-width: 480px){
+@media (max-width: 482px){
+    .carousel{
+        margin-top: 171px;
+    }
     .service__title-box::before,
     .form__title-box::before,
     .news__title-box::before, 
@@ -1978,8 +1985,13 @@ display: block;
         max-width: 330px;
         top: 45%;
     }
-    .header__btn {
-        padding: 5px 20px 4px 21px
+    .header__phone{
+        padding: 0px 20px 0 24px;
+    }
+    .header__phone, .header__email {
+        line-height: 30px;
+    }.header__btn {
+        padding: 0 20px 0 24px
     }
     .header__btn::before {
         left: 0px;
@@ -2014,13 +2026,12 @@ display: block;
         right: 15%;
         margin-bottom: 10px;
     }
-    .news__images img {
+    /* .news__images img {
         max-width: 170px !important;
-    }
+    } */
     .workers {
-        max-width: 170px;
         font-size: 10px;
-        height: 240px;
+
     }
     .news__blog-title, 
     .news__blog-text {
@@ -2066,16 +2077,19 @@ display: block;
     }
     .carousel-caption {
         max-width: 300px;
-        top: 32%;
+        top: 40%;
     }
     .slider__text {
         font-size: 6px;
+       
+        line-height: 15px;
     }
     .slider__title{
-        font-size: 10px;
+        font-size: 12px;
     }
     .default-btn {
         font-size: 6px;
+        padding: 0;
     }
 
 }
