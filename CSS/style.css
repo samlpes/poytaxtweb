@@ -1263,6 +1263,7 @@ display: block;
 
 #modal{
     width: 300px;
+    border-radius: 20px;
 }
 
 #modal input{
@@ -1276,11 +1277,13 @@ display: block;
     padding: 0 10px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    border-radius: 10px;
 }
 
 #modal input[type="submit"]{
     background-color: #0168b4;
     color: #fff;
+    width: 186px;
 }
 @media screen and (max-width: 1899.98px) {
     .cycle__item2{
