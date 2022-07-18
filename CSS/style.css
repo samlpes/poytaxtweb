@@ -329,7 +329,7 @@ header{
     background-image: url(../IMG/service/мелованнаябумага.png);
 }
 .img6{
-    background-image: url(../IMG/service/флато.png);
+    background-image: url(../IMG/service/тестлайнер.png);
 }
 .img7{
     background-image: url(../IMG/service/этикетка.png);
@@ -341,13 +341,14 @@ header{
     background-image: url(../IMG/service/офсетнаябумага.png);
 }
 .img10{
-    background-image: url(../IMG/service/монди.png);
+    background-image: url(../IMG/service/флаторезка.jpg);
 }
 .img11{
     background-image: url(../IMG/service/5im.png);
 }
 .img12{
-    background-image: url(../IMG/service/флато.png);
+    background-image: url(../IMG/service/бобинорезка.png);
+    
 }
 
 
@@ -386,6 +387,7 @@ header{
     font-weight: 500;
     padding: 24px 0;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif;
+    position: absolute;
 }
 .service__item-text{
     letter-spacing: 0.1px;
