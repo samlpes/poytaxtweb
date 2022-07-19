@@ -45,7 +45,6 @@ header{
     background-color: #303030;
 }
 
-
 .header__btn{
     float: right;
     line-height: 36px;
@@ -120,8 +119,12 @@ header{
     display: none;
     font-size: 28px;
 }
+.header__logo img{
+    width: 60px;
+    height: 60px;
+}
 .header__content{
-    padding: 34px 0px 23px;
+    padding: 18px 0px 12px;
     background-color: #fff;
 }
 .header__content-inner{
