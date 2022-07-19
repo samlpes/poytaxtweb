@@ -179,7 +179,7 @@ header{
 /* slider */
 
 .carousel{
-    margin-top: 140px;
+    margin-top: 150px;
 }
 .carousel-inner .carousel-item img{ 
     
@@ -1817,7 +1817,7 @@ display: block;
 }
 @media (max-width: 590px){
     .carousel{
-        margin-top: 120px;
+        margin-top: 142px;
     }
     .header__content {
         padding: 15px 0px 15px;
@@ -1971,7 +1971,7 @@ display: block;
 }
 @media (max-width: 482px){
     .carousel{
-        margin-top: 171px;
+        margin-top: 187px;
     }
     .service__title-box::before,
     .form__title-box::before,
@@ -2066,6 +2066,9 @@ display: block;
 
 }
 @media (max-width: 420px){
+    .carousel{
+        margin-top: 187px;
+    }
     .form__box-inner input {
         width: 130px;
     }

@@ -532,7 +532,7 @@
                     </div>
                     <div class="workers">
                         <div class="news__images staff">
-                            <img src="IMG/staff/малика.png" alt="">
+                            <img src="IMG/staff/мфлика.png" alt="">
 
                         </div>
                         <div class="news__blog-title">
@@ -810,7 +810,7 @@
                         </div>
                     </div>
                     <div class="form__box">
-                        <form action="./mail/totelegram.php" method="POST">
+                        <form action="https://formspree.io/f/xzbowwqg" method="POST">
                             <div class="form__box-inner">
                                 <div class="form__box-left">
                                     <label>
@@ -872,7 +872,7 @@
         </div>
     </footer>
 
-    <div id="modal">
+    <!-- <div id="modal">
         <form action="./mail/totelegram.php"
         method="POST">
         <label>
@@ -885,8 +885,21 @@
           </label>
             <input type="submit" value="Отправить">
         </form>
+    </div> -->
+    <div id="modal">
+        <form action="https://formspree.io/f/xzbowwqg"
+        method="POST" data-netlify="true">
+        <label>
+            Ваше имя
+            <input type="name" name="name">
+          </label>
+          <label>
+            Ваш телефон
+            <input type="text" name="phone">
+          </label>
+            <input type="submit" value="Отправить">
+        </form>
     </div>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="JS/jquery.fancybox.min.js"></script>
