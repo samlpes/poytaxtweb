@@ -1075,7 +1075,7 @@ header{
 /* video */
 .video{
     background-color: #f9f9f9;
-    height: auto;
+    height: 318px;
 }
 video {
     object-fit: cover;
