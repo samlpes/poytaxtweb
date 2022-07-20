@@ -1072,6 +1072,16 @@ header{
     max-width: 60px;
     max-height: 60px;
 }
+/* video */
+.video{
+    background-color: #f9f9f9;
+    height: auto;
+}
+video {
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+   padding-top: 5px;
+}
 /* news */ 
 
 .news{
