@@ -1146,6 +1146,7 @@ video {
 
 .blog__images img{
     max-width: 243px;
+    /* filter: brightness(80%); */
 }
 
 .news__blog-title,
