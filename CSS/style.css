@@ -1075,12 +1075,13 @@ header{
 /* video */
 .video{
     background-color: #f9f9f9;
-    height: 518px;
+    height: 450px;
 }
 video {
     object-fit: cover;
     aspect-ratio: 16 / 9;
-   padding-top: 5px;
+    padding-top: 5px;
+    filter: brightness(35%);
 }
 /* news */ 
 
@@ -1417,6 +1418,7 @@ display: block;
     }
 }
  @media (max-width:991.98px){
+
     .navbar-nav a{
         font-size: 14px;
         line-height: 36px !important;
