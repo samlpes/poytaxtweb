@@ -708,7 +708,6 @@ header{
 
 .form__inner{
     padding-bottom: 40px;
-    background-image: url(../IMG/woman.png);
     min-height: 460px;
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -717,6 +716,7 @@ header{
 .form__box{
     max-width: 850px;
     padding-top: 45px;
+    margin: 0 auto;
 }
 .form__box-inner{
     display: flex;
