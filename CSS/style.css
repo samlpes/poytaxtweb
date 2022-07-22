@@ -352,7 +352,7 @@ header{
     background-image: url(../IMG/service/офсетнаябумага.png);
 }
 .img10{
-    background-image: url(../IMG/service/флаторезка.jpg);
+    background-image: url(../IMG/service/IMG_3224.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
@@ -362,11 +362,11 @@ header{
     background-image: url(../IMG/service/5im.png);
 }
 .img12{
-    background-image: url(../IMG/service/бобинорезка.png);
+    background-image: url(../IMG/service/IMG_3233.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    object-fit: cover; 
+    object-fit: cover;
 }
 
 
