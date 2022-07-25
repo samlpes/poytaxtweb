@@ -330,17 +330,21 @@ header{
     background-image: url(../IMG/service/крафтбумага.png);
 }
 .img4{
-    background-image: url(../IMG/service/крафтлайнер.png);
+    background-image: url(../IMG/service/крафтлайнер1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    object-fit: cover; 
 }
 .img5{
     background-image: url(../IMG/service/мелованнаябумага.png);
 }
 .img6{
-    background-image: url(../IMG/service/тестлайнер.png);
+    background-image: url(../IMG/service/топлайнер.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
-    object-fit: cover; 
+    object-fit: cover;
 }
 .img7{
     background-image: url(../IMG/service/этикетка.png);
@@ -405,6 +409,7 @@ header{
     font-weight: 500;
     padding: 24px 0;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial", sans-serif;
+    
 }
 .service__item-text{
     letter-spacing: 0.1px;
