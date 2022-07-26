@@ -884,6 +884,9 @@ header{
 .advant-item .i3{
     height: 60% ;
     width: 81% ;
+}.advant-item .i4{
+    height: 60% ;
+    width: 91% ;
 }
 .advant__title{
     font-size: 18px;
@@ -1387,6 +1390,9 @@ display: block;
     .advant-item .i3{
         height: 50% ;
         width: 79% ;
+    }.advant-item .i4{
+        height: 50% ;
+        width: 81% ;
     }
     .cycle__item{
         max-width: 230px;
@@ -1547,6 +1553,9 @@ display: block;
     .advant-item .i3{
         height: 50% !important;
         width: 79% !important;
+    }.advant-item .i4{
+        height: 50% ;
+        width: 91% ;
     }
     .cycle__item{
         max-width: 210px;
@@ -1885,7 +1894,7 @@ display: block;
     }
     .header__btn{
         font-size: 10px;
-        padding: 5px 10px 5px 40px;
+        padding: 5px 10px 5px 40px; 
         /* width: 200px; */
     }
     .header__btn::before{
