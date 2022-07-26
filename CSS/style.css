@@ -1095,9 +1095,10 @@ video {
     background-color: #fff;
 } 
 .news__inner{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    /* justify-content: space-around; */
     max-width: 1216px;
+    grid-template-columns: repeat(3, 1fr);
     
 }
 .inner__news{
