@@ -179,7 +179,7 @@ header{
 /* slider */
 
 .carousel{
-    margin-top: 150px;
+    margin-top: 135px;
 }
 .carousel-inner .carousel-item img{ 
     
@@ -495,13 +495,14 @@ header{
     line-height: 24px;
     color: #212020;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 .about__text p{
     margin-bottom: 30px;
     letter-spacing: 0.1px;
     line-height: 22px;
     color: #181818;
-    font-size: 16px;
+    font-size: 14px;
  }
 .xc{
     margin-bottom: 0 !important;
@@ -697,6 +698,7 @@ header{
 }
 .adv__text{
     height: 45px;
+    font-size: 14px;
 }
 
 .adv__imag{
@@ -1095,11 +1097,13 @@ video {
     background-color: #fff;
 } 
 .news__inner{
-    display: grid;
-    /* justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
     max-width: 1216px;
+}
+.news__inner1{
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
 }
 .inner__news{
     display: flex;
@@ -1181,7 +1185,7 @@ video {
     font-family: 'Roboto', sans-serif;
     color: #242424;
     letter-spacing: 0.5px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
 }
 .news__blog-text{
@@ -1234,7 +1238,7 @@ display: block;
 .footer__title{
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 18px;
     color: #fff;
     line-height: 36px;
     letter-spacing: 0.5px;
@@ -1630,7 +1634,9 @@ display: block;
     .blog__images img{
         max-width: 280px;
     }
-    
+    .news__inner1{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width:800px){
@@ -1879,6 +1885,7 @@ display: block;
     }
     .header__btn{
         font-size: 10px;
+        padding: 5px 10px 5px 40px;
         /* width: 200px; */
     }
     .header__btn::before{
@@ -1942,18 +1949,18 @@ display: block;
 .timeline__title, 
 .cycle__title, 
 .heading__title {
-    font-size: 15px;
+    font-size: 16px;
 }
     .inner__about {
     max-width: 500px;
     }
-    .news__inner {
+    .news__inner, .news__inner1 {
         display: grid;
         grid-gap: 1rem;
         grid-template-columns: repeat(1, 1fr);
     }
     .news__blog-title{
-        font-size: 12px;
+        font-size: 14px;
     }
     .news__blog{
         width: 150px;
