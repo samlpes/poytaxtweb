@@ -59,6 +59,18 @@ header{
     color: #fff;
     background-color: #0b80d470;
 }
+ .dropdown .btn{
+    line-height: 36px;
+    color: #cbcacb;
+    /* padding: 5px 20px 4px 50px; */
+    font-size: 14px;
+    transition: all .7s;
+    background: none !important;
+    border: none;
+} .dropdown .btn:hover{
+    color: #fff;
+
+}
 .btn{
     background-color: #0168b4;
 }
@@ -853,6 +865,7 @@ header{
     background-size: cover; 
     object-fit: cover; 
     position: relative; 
+     
 }
  .advant::before{
     content: "";
@@ -1160,6 +1173,9 @@ video {
     border-start-start-radius: 8px; 
     border-end-start-radius: 4px; 
     border-end-end-radius: 4px;
+}
+.sales img{
+    filter: brightness(75%);
 }
 
 .blog__images img{
