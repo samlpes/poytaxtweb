@@ -27,7 +27,7 @@ li{
 body{
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     color: #5e5e5e;
     
@@ -50,7 +50,7 @@ header{
     line-height: 36px;
     color: #fff;
     padding: 5px 20px 4px 50px;
-    font-size: 16px;
+    font-size: 14px;
     display: block;
     position: relative;
     transition: all .7s;
@@ -139,12 +139,13 @@ header{
 
 .menu a{
     color: #323232;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 36px;
     background-color: #fff;
     padding: 0px 16px;
     transition: all .7s;
     margin-left: 50px !important;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
 }
 .menu a:hover{
     background-color: #0169b470;
@@ -164,12 +165,13 @@ header{
     padding: 0 !important;
 }
 .navbar-nav a{
-    font-size: 14px;
+    font-size: 16px;
     line-height: 36px !important;
     background-color: #fff;
     padding: 0px 24px !important;
     transition: all .7s;
     color: #323232 !important;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
 }
 .navbar-nav a:hover{
     background-color: #0169b470;
@@ -229,7 +231,7 @@ header{
     line-height: 24px;
     color: #fff;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     padding: 8px 30px 8px 24px;
     border: 1px solid #0168b4;
     border-right-width: 20px;
@@ -480,12 +482,12 @@ header{
 .section2{
     display: flex;
     justify-content: space-between;
-    font-family: 'PT Serif', serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     font-weight: 400;
     letter-spacing: 0.1px;
     line-height: 22px;
     color: #181818;
-    font-size: 14px;
+    font-size: 16px;
     text-align: center;
 }
 .about__title{
@@ -502,7 +504,8 @@ header{
     letter-spacing: 0.1px;
     line-height: 22px;
     color: #181818;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
  }
 .xc{
     margin-bottom: 0 !important;
@@ -606,20 +609,20 @@ header{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 235px;
+    height: 250px;
     transform: rotate(180deg);
 }.timeline .a2{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 255px;
+    height: 270px;
     /* margin-bottom: 20px; */
     transform: rotate(180deg);
 }.timeline .a3{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 160px;
+    height: 170px;
     transform: rotate(180deg);
 }
 .timeline .a31{
@@ -631,20 +634,20 @@ header{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 310px;
+    height: 340px;
     margin-bottom: 30px;
     
 }.timeline .a5{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 245px;
+    height: 330px;
 }
 .timeline .a6{
     padding: 15px;
     border-left: 2px solid #b90c0c;
     width: 80%;
-    height: 265px;
+    height: 275px;
 }
 .timeline h2{
     font-size: 24px;
@@ -655,15 +658,15 @@ header{
     margin-bottom: 10px;
 }
 .timeline p{
-    font-family: 'PT Serif', serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 18px;
     color: #181818 ;
     
 }
 .timeline h4 {
-    font-family: 'PT Serif', serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     font-weight: 400;
     font-size: 18px;
     line-height: 18px;
@@ -698,7 +701,8 @@ header{
 }
 .adv__text{
     height: 45px;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
 }
 
 .adv__imag{
@@ -921,7 +925,7 @@ header{
     line-height: 24px;
     color: #5e5e5e;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica",sans-serif;
     padding: 8px 30px 8px 24px;
     border: 1px solid #0168b4;
     border-right-width: 20px;
@@ -1194,6 +1198,7 @@ video {
 .news__blog-text{
     letter-spacing: 0.1px;
     color: #5e5e5e;
+    line-height: 22px;
 }
 .news__slider-title{
     font-size: 18px;
@@ -1340,6 +1345,7 @@ display: block;
         line-height: 36px;
         background-color: #fff;
         padding: 0px 16px;
+        
     }
     .timeline h2{
         font-size: 18px;
