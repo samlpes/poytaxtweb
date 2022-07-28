@@ -362,6 +362,10 @@ header{
 }
 .img7{
     background-image: url(../IMG/service/этикетка.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    object-fit: cover;
 }
 .img8{
     background-image: url(../IMG/service/самоклейка.png);
@@ -867,15 +871,29 @@ header{
     position: relative; 
      
 }
-.advant .carousel, .carousel-item{
+.advant .carousel1, .carousel-item1{
     width: 500px;
     height: 285px;
     margin-top: 0;
 }
-.carousel-item img{
+.carousel-item1 img{
     width: 500px !important;
     height: 285px !important;
     object-fit: contain !important;
+}
+.carousel-caption1{
+    position: absolute;
+    height: 10em;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 1000px;
+    top: 50%;
+    left: 50% !important;
+    margin-bottom: -50%;
+    transform: translate(-50%, -50%); 
+    z-index: 0 !important; 
+    
 }
  .advant::before{
     content: "";
