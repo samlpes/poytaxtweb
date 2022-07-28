@@ -871,6 +871,21 @@ header{
     position: relative; 
      
 }
+.carousel-indicators{
+    bottom: -40px !important;
+    margin-bottom: 10px;
+}
+.carousel-control-prev{
+    left: -65px !important;
+}
+.carousel-control-next {
+    right: -65px !important;
+}
+.carousel-indicators li{
+    border-radius: 50% !important;
+    width: 7px !important;
+    height: 7px !important;
+}
 .advant .carousel1, .carousel-item1{
     width: 500px;
     height: 285px;
@@ -1484,7 +1499,14 @@ display: block;
     }
 }
  @media (max-width:991.98px){
-
+    .carousel-item1 img {
+        height: 220px !important;
+        object-fit: contain !important;
+    }
+    .carousel-indicators {
+        bottom: 5px !important;
+        margin-bottom: 10px;
+    }
     .navbar-nav a{
         font-size: 14px;
         line-height: 36px !important;
@@ -1835,6 +1857,14 @@ display: block;
 }
 
 @media (max-width:646.98px){
+    .carousel-item1 img {
+        width: 390px !important;
+        height: 240px !important;
+        object-fit: contain !important;
+    }
+    .advant .carousel1, .carousel-item1 {
+        width: 390px;
+    }
     .about__title{
         font-size: 20px;
     }
@@ -2047,6 +2077,24 @@ display: block;
     }
 }
 @media (max-width: 517px){
+    .carousel-item1 img {
+        width: 300px !important;
+        height: 220px !important;
+        object-fit: contain !important;
+    }
+    .carousel-indicators {
+        bottom: 15px !important;
+        margin-bottom: 10px;
+    }
+    .carousel-control-next {
+        right: -50px !important;
+    }
+    .carousel-control-prev {
+        left: -50px !important;
+    }
+    .advant .carousel1, .carousel-item1 {
+        width: 300px;
+    }
     .timeline p {
         font-size: 7px;
         line-height: 10px;
@@ -2193,11 +2241,33 @@ display: block;
         height: 205px;
         margin: 0 auto;
     }
+    .carousel-item1 img {
+        width: 260px !important;
+        height: 240px !important;
+    }
+    .advant .carousel1, .carousel-item1 {
+        width: 260px;
+    }
+    .carousel-control-next {
+        right: -40px !important;
+    }
+    .carousel-control-prev {
+        right: -40px !important;
+    }
+    .carousel-indicators {
+        bottom: 5px !important;
+        margin-bottom: 10px;
+    }
 
-    
 
 }
+@media (max-width: 340px){
+    .advant .carousel1, .carousel-item1 {
+        width: 235px;
+    }   
+}
 @media (max-width: 320px){
+ 
     .cycle__item1 {
         left: 10%;
     }
