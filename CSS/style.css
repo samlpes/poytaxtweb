@@ -867,6 +867,16 @@ header{
     position: relative; 
      
 }
+.advant .carousel, .carousel-item{
+    width: 500px;
+    height: 285px;
+    margin-top: 0;
+}
+.carousel-item img{
+    width: 500px !important;
+    height: 285px !important;
+    object-fit: contain !important;
+}
  .advant::before{
     content: "";
     background-image: url(../IMG/3items.jpg);
