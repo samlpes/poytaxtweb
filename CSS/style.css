@@ -895,7 +895,19 @@ header{
     width: 500px !important;
     height: 285px !important;
     object-fit: contain !important;
+    filter: brightness(100%) !important;
 }
+/* .carousel-inner .carousel-item img{ 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 35vw;
+    position: relative;
+    
+    
+} */
 .carousel-caption1{
     position: absolute;
     height: 10em;
@@ -1930,7 +1942,7 @@ display: block;
 .heading__title {
     font-size: 20px;
 }
-.header__btn{
+.dropdown .btn, .header__btn{
     font-size: 12px;
     /* width: 200px; */
 }
@@ -2162,7 +2174,7 @@ display: block;
         left: 0px;
     }
     .header__contacts{
-        display: grid;
+        display: block;
     }
     .default-btn {
         font-size: 8px;
