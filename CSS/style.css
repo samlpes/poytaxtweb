@@ -1223,7 +1223,9 @@ video {
 
 }
 .staff img{
-    width: 280px;  
+    width: 280px; 
+    height: 200px;
+    object-fit: cover; 
     border-start-end-radius: 8px; 
     border-start-start-radius: 8px; 
     border-end-start-radius: 4px; 
